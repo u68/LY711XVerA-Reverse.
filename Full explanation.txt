@@ -1,0 +1,20 @@
+People have found a way to get abnormal stat modes such as stat mode 0.
+To get this mode you have to press [mode] [2] then [ac] after about 0.5 seconds you press on if you did it correctly you will see reg at the top indicators and when you press [shift] [1] you will see reg.
+With this you can exploit these symbols.
+Why this is possible is because you have overwritten the eeprom and caused it to set the stat mode to 0 instead of 1....8.
+The calculator then sets the pointers of these symbols to incorrect pieces of code.
+
+what we can do with these is spell and do random things.
+
+An example of this is the Pol(b project which is unfinished but if you look at the 5*9 to 5*6 coversion you will be able to figure it out.
+To do single line spelling you press [shift] [1] [5] [1] then type your 7-12 character ascii then 9x[)] pressing equals will run this code and you will see the the letter "a" and the characters you typed with the trailing bracets.
+When you press on you will be in mode 68 which is useful as to performing basic overflow in mathio.
+
+another thing you can do is r based hackstings. to do these you use [shift] [1] [5] [3] then behind it you type 4x([(](any 4 digit number)) and then press equals.
+You can try different amounts of numbeers and lengths and even changing where you put r. using [m+] or [sto]+{var} can change the affects like (4343(4343(4343(4343r->Ma causes mass curruption.
+
+Now in comp mathio you can get "r" to do this you press [pol] [1] [,] [0] [=] [/] [9] ([)] until you cant type any more) [=] [ac] [up] [ac] [left] delete all the other stuff apart from r and do some more hackstrings. 
+Hackstrings that involve "9" often can be used to change the mode such as (7979(7979(7979(7979r changes the mode to vector which sadly has no functionality.
+
+Now in stat mode 0 type (1(1(1(1r then [=] [on] then type [V(](square root) [1] [=] [shift] [mode] [2] [up] delete the square root and change it to [log(] then after the bold "B" type 2 then [=] [shift] [mode] [1] [1] [up] now you have log with parameters.
+This can probably be used to perform adnvanced overflow.
